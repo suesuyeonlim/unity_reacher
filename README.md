@@ -56,7 +56,7 @@ Version 2: Twenty (20) Agents
   
 Place the file in the unity_reacher/reacher_apps/ folder, and unzip (or decompress) the file(s).
 
-2. To install the mlagents Python package, activate your virtual environment and run from the command line:
+2. To install the mlagents Python package, run from the command line:
   
   ```
   python -m pip install mlagents==0.28.0
@@ -69,7 +69,7 @@ Place the file in the unity_reacher/reacher_apps/ folder, and unzip (or decompre
   - Copy
   - Collections
 
-4. In a terminal or command window, navigate to the top-level project directory reacher_ddpg/ (that contains this README) and run the following command:
+4. Run the following command:
 
   ```
   $ jupyter notebook
