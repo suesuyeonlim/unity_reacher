@@ -11,6 +11,32 @@ The observation space consists of 33 variables corresponding to position, rotati
 The assignment is to train a single agent or 20 agents in parallel to get an average score of 30+ over 100 consecutive episodes.
 
 
+## Python Environment Set-Up
+To set up your python environment to run the code in this repository, follow the instructions below.
+
+1. Download and install [Anaconda](https://www.anaconda.com/download/), if you don't already have it.
+
+2. Create (and activate) a new environment with Python 3.6.
+
+- Linux or Mac:
+  ```
+  conda create --name drlnd python=3.6
+  conda activate drlnd
+  ```
+- Windows:
+  ```
+  conda create --name drlnd python=3.6 
+  activate drlnd
+  ```
+
+3. Clone the repository and navigate to the root folder.
+  
+  ```
+  git clone https://github.com/suesuyeonlim/unity_reacher.git
+  cd unity_reacher
+  pip install .
+  ```
+
 ## Requirements to Run the Code in Repository
 In order to prepare the environment, follow the next steps after downloading this repository:
 
