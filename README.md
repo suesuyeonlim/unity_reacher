@@ -34,7 +34,6 @@ To set up your python environment to run the code in this repository, follow the
   ```
   git clone https://github.com/suesuyeonlim/unity_reacher.git
   cd unity_reacher
-  pip install .
   ```
 
 ## Requirements to Run the Code in Repository
