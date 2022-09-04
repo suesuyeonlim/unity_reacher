@@ -8,69 +8,22 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 ![43851024-320ba930-9aff-11e8-8493-ee547c6af349 (1)](https://user-images.githubusercontent.com/19903898/179446479-29bb5eea-5812-4110-9030-db56188c3369.gif)
 
-<<<<<<< HEAD
-The assignment is to train a single agent or 20 agents in parallel to get an average score of 30+ over 100 consecutive episodes.
-
-
-## Python Environment Set-Up
-To set up your python environment to run the code in this repository, follow the instructions below.
-
-1. Download and install [Anaconda](https://www.anaconda.com/download/), if you don't already have it.
-
-2. Create (and activate) a new environment with Python 3.6.
-
-- Linux or Mac:
-  ```
-  conda create --name drlnd python=3.6
-  conda activate drlnd
-  ```
-- Windows:
-  ```
-  conda create --name drlnd python=3.6 
-  activate drlnd
-  ```
-
-3. Clone the repository and navigate to the root folder.
-  
-  ```
-  git clone https://github.com/suesuyeonlim/unity_reacher.git
-  cd unity_reacher
-  ```
-
-=======
 The assignment is to train a single agent to get an average score of 30+ over 100 consecutive episodes.
 
 
->>>>>>> parent of 35305df... First Commit
 ## Requirements to Run the Code in Repository
 In order to prepare the environment, follow the next steps after downloading this repository:
 
 1. Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
-<<<<<<< HEAD
-Version 1: One (1) Agent
-=======
->>>>>>> parent of 35305df... First Commit
   - Linux: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
   - Mac OSX: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
   - Windows (32-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
   - Windows (64-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
 
-<<<<<<< HEAD
-Version 2: Twenty (20) Agents
-  - Linux: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
-  - Mac OSX: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
-  - Windows (32-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
-  - Windows (64-bit): click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
-  
-Place the file in the unity_reacher/reacher_apps/ folder, and unzip (or decompress) the file(s).
-
-2. To install the mlagents Python package, run from the command line:
-=======
   Place the file in the reacher_ddpg/ folder, and unzip (or decompress) the file.
 
 2. To install the mlagents Python package, activate your virtual environment and run from the command line:
->>>>>>> parent of 35305df... First Commit
   
   ```
   python -m pip install mlagents==0.28.0
@@ -83,11 +36,7 @@ Place the file in the unity_reacher/reacher_apps/ folder, and unzip (or decompre
   - Copy
   - Collections
 
-<<<<<<< HEAD
-4. Run the following command:
-=======
 4. In a terminal or command window, navigate to the top-level project directory reacher_ddpg/ (that contains this README) and run the following command:
->>>>>>> parent of 35305df... First Commit
 
   ```
   $ jupyter notebook
@@ -96,13 +45,7 @@ Place the file in the unity_reacher/reacher_apps/ folder, and unzip (or decompre
   This will open the Jupyter Notebook software and notebook in your browser which you can use to explore and reproduce the experiments that have been run.
 
 ## Code and Resources
-<<<<<<< HEAD
-- Report.pdf: A document that describes the results, details of the implementation, and things future ideas.
-- ppo_solutions: A folder that contains the PPO code and trained model weights.
-- ddpg_solutions: A folder that contains the DDPG code and trained model weights.
-=======
 - report.pdf: A document that describes the details of the implementation and things to explore in the future.
 - Continuous_Control.ipynb: Training the agent using the DDPG algorithm.
 - test.py: Entry point for testing the agent using the trained networks.
 - dqn.pth, policy.pth: Model weights.
->>>>>>> parent of 35305df... First Commit
